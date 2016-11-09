@@ -1,0 +1,30 @@
+{
+  "name": "publist",
+  "version": "0.0.0",
+  "description": "Smart list of object enumerable properties.",
+  "main": "publist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/publist.git"
+  },
+  "keywords": [
+    "smart",
+    "list",
+    "object",
+    "property",
+    "enumerable",
+    "publist"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/publist/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/publist#readme",
+  "dependencies": {
+    "proplist": "^0.2.0"
+  }
+}
