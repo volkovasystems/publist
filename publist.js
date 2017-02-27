@@ -5,7 +5,7 @@
 		The MIT License (MIT)
 		@mit-license
 
-		Copyright (@c) 2016 Richeve Siodina Bebedor
+		Copyright (@c) 2017 Richeve Siodina Bebedor
 		@email: richeve.bebedor@gmail.com
 
 		Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -52,15 +52,9 @@
 	@end-include
 */
 
-if( typeof require == "function" ){
-	var proplist = require( "proplist" );
-}
+const proplist = require( "proplist" );
 
-if( typeof window != "undefined" && !( "proplist" in window ) ){
-	throw new Error( "proplist is not defined" );
-}
-
-var publist = function publist( entity ){
+const publist = function publist( entity ){
 	/*;
 		@meta-configuration:
 			{
@@ -72,6 +66,4 @@ var publist = function publist( entity ){
 	return proplist( entity ).filter( ( definition ) => { return definition.enumerable; } );
 };
 
-if( typeof module != "undefined" && typeof module.exports != "undefined" ){
-	module.exports = publist;
-}
+module.exports = publist;
