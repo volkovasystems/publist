@@ -1,6 +1,6 @@
 {
   "name": "publist",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Smart list of object enumerable properties.",
   "main": "publist.deploy.js",
   "support": "publist.support.js",
