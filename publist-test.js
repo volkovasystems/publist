@@ -1,5 +1,8 @@
 "use strict";
 
+const assert = require( "assert" );
 const publist = require( "./publist.js" );
 
-console.log( require( "util" ).inspect( publist( { "name": "simple" } ), { "showHidden": true } ) );
+assert.ok( publist( { "name": "simple" } ) );
+
+console.log( "ok" );
