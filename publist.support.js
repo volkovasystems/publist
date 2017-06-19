@@ -34,11 +34,11 @@
               			"file": "publist.js",
               			"module": "publist",
               			"author": "Richeve S. Bebedor",
+              			"eMail": "richeve.bebedor@gmail.com",
               			"contributors": [
               				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
               				"Vinse Vinalon <vinsevinalon@gmail.com>"
               			],
-              			"eMail": "richeve.bebedor@gmail.com",
               			"repository": "https://github.com/volkovasystems/publist.git",
               			"test": "publist-test.js",
               			"global": true
