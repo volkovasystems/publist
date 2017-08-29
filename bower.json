@@ -1,32 +1,29 @@
 {
-  "name": "publist",
-  "version": "0.17.0",
-  "description": "Smart list of object enumerable properties.",
-  "main": "publist.deploy.js",
-  "support": "publist.support.js",
-  "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "smart",
-    "list",
-    "object",
-    "property",
-    "enumerable",
-    "publist"
-  ],
-  "homepage": "https://github.com/volkovasystems/publist",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "proplist": "^0.32.0"
-  }
+	"name": "publist",
+	"version": "0.17.0",
+	"description": "Smart list of object enumerable properties.",
+	"main": "publist.deploy.js",
+	"support": "publist.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"smart",
+		"list",
+		"object",
+		"property",
+		"enumerable",
+		"publist"
+	],
+	"homepage": "https://github.com/volkovasystems/publist",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }
