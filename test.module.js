@@ -70,6 +70,14 @@ const path = require( "path" );
 
 describe( "publist", ( ) => {
 
+	describe( "`publist( { 'name': 'simple' } )`", ( ) => {
+		it( "should return object type", ( ) => {
+
+			assert.equal( typeof publist( { "name": "simple" } ) == "object", true );
+
+		} );
+	} );
+
 } );
 
 //: @end-server
@@ -78,6 +86,15 @@ describe( "publist", ( ) => {
 //: @client:
 
 describe( "publist", ( ) => {
+
+	describe( "`publist( { 'name': 'simple' } )`", ( ) => {
+		it( "should return object type", ( ) => {
+
+			assert.equal( typeof publist( { "name": "simple" } ) == "object", true );
+
+		} );
+	} );
+
 } );
 
 //: @end-client
@@ -86,6 +103,25 @@ describe( "publist", ( ) => {
 //: @bridge:
 
 describe( "publist", ( ) => {
+
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
+	describe( "`publist( { 'name': 'simple' } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof publist( { "name": "simple" } ) == "object";
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, true );
+
+		} );
+	} );
+
 } );
 
 //: @end-bridge

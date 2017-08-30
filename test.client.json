@@ -1,0 +1,87 @@
+{
+	"state": {
+		"passed": 1,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-08-30T08:53:13.403Z",
+	"end": "2017-08-30T08:53:50.891Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": {
+			"proxyType": "direct"
+		}
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd",
+		"slow": 0
+	},
+	"suites": [
+		{
+			"name": "publist",
+			"duration": 0,
+			"start": "2017-08-30T08:53:50.535Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "publist",
+			"duration": 173,
+			"start": "2017-08-30T08:53:50.535Z",
+			"end": "2017-08-30T08:53:50.708Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-08-30T08:53:50.537Z",
+					"end": "2017-08-30T08:53:50.537Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "publist",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-30T08:53:50.707Z",
+					"end": "2017-08-30T08:53:50.707Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "publist",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-30T08:53:50.708Z",
+					"end": "2017-08-30T08:53:50.708Z",
+					"duration": 0,
+					"title": "\"after all\" hook",
+					"associatedSuite": "publist"
+				}
+			]
+		},
+		{
+			"name": "`publist( { 'name': 'simple' } )`",
+			"duration": 172,
+			"start": "2017-08-30T08:53:50.536Z",
+			"end": "2017-08-30T08:53:50.708Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-30T08:53:50.536Z",
+					"end": "2017-08-30T08:53:50.707Z",
+					"duration": 171,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}

@@ -1,16 +1,32 @@
 {
-  "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
-    "pending": 0,
-    "failures": 0,
-    "start": "2017-08-29T04:34:33.229Z",
-    "end": "2017-08-29T04:34:33.229Z",
-    "duration": 0
-  },
-  "tests": [],
-  "pending": [],
-  "failures": [],
-  "passes": []
+	"stats": {
+		"suites": 2,
+		"tests": 1,
+		"passes": 1,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-08-30T08:53:12.119Z",
+		"end": "2017-08-30T08:53:12.128Z",
+		"duration": 9
+	},
+	"tests": [
+		{
+			"title": "should return object type",
+			"fullTitle": "publist `publist( { 'name': 'simple' } )` should return object type",
+			"duration": 4,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should return object type",
+			"fullTitle": "publist `publist( { 'name': 'simple' } )` should return object type",
+			"duration": 4,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
 }

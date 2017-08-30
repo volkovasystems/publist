@@ -66,6 +66,14 @@ const publist = require( "./publist.js" );
 
 describe( "publist", ( ) => {
 
+	describe( "`publist( { 'name': 'simple' } )`", ( ) => {
+		it( "should return object type", ( ) => {
+
+			assert.equal( typeof publist( { "name": "simple" } ) == "object", true );
+
+		} );
+	} );
+
 } );
 
 //: @end-server
